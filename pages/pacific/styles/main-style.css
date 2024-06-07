@@ -1,0 +1,123 @@
+.title {
+    position: relative;
+    color: white;
+    background-color: #06226C;
+    height: 52px;
+    text-align:center;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../images/sunset.jpg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
+    opacity: 0.5; 
+}
+
+h1{
+    padding-top:.5em;
+    color:#3F73C3; 
+}
+
+#homehero{
+    background-image: url(../images/homehero.jpg);
+    height:300px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #002171, #1976D2, #BBDEFB, #FFFFFF);
+    background-attachment:fixed;
+}
+
+#wrapper{
+    background-color:white;
+    min-width:960px;
+    max-width:2048px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+nav{
+    padding:5px;
+    text-align:center;
+    background-color:white;
+    font-family:verdana, arial, tahoma;
+    font-weight:bold;
+}
+
+nav a{
+    text-decoration:none;
+}
+
+main{
+    padding-right:2em;
+    padding-left:2em;
+    font-family:verdana, arial, tahoma;
+    
+}
+
+.sky{
+    color:#3F73C3;
+    font-size:20px;
+    font-family:verdana, arial, tahoma;
+}
+
+.h1font{
+    font-family:Georgia, arial, tahoma;
+}
+
+.botpac{    
+    color:#3F73C3;
+    font-size:20px;
+    font-family:Georgia, arial, tahoma;
+}
+
+footer{
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:1em;
+    padding-right:1em;
+}
+
+h2{
+    color:darkblue;
+}
+
+#trailhero{
+    background-image:url(../images/nav-cottage.jpg);
+    height:300px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+}
+
+#homeact{
+    background-image:url(../images/beach-activities.jpg);
+    height:300px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+}
+
+#reservetrail{
+    background-image:url(../images/reservations.jpg);
+    height:300px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+}
+
+@font-face {
+    src: url(../fonts/Cheltenham\ UltraItalic.ttf);
+    font-family: Cheltenham;
+}

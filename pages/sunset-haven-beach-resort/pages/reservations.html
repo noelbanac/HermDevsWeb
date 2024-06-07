@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Haven Beach Resort</title>
+
+    <link rel="stylesheet" href="../styles/main-style.css">
+</head>
+<body class="room-body">
+  <div class="wrapper">
+    <section id="hero-reservation">
+          <div class="navbar">
+            <div class="title">
+              <h1>Sunset Haven Beach Resort</h1>
+            </div>
+            <div class="menu">
+              <a href="../index.html">Home</a>
+              <a href="cottages.html">Cottages</a>
+              <a href="room-rates.html">Room Rates</a>
+              <a href="reservations.html">Reservations</a>
+              <a href="about-us.html">About Us</a>
+            </div>
+          </div>
+        <div class="hero-box">
+          <h1 class="hero-heading">Visit our resort.</h1>
+          <p class="hero-desc">Bid farewell to uncertainty and long waiting times. With just a few clicks, you can explore available dates, select your preferred accommodations or activities, and secure your reservation, ensuring that your stay with us is tailored to perfection. 
+          </p>
+        </div>
+      </section>
+      
+      <main>
+        <h1 class="highlight">Make a Reservation</h1>
+            <p></p>
+        </main>
+        <form action="submit_reservation.php" method="POST">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+      
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+      
+          <label for="checkin">Check-in Date:</label><br>
+          <input type="date" id="checkin" name="checkin" required><br><br>
+      
+          <label for="checkout">Check-out Date:</label><br>
+          <input type="date" id="checkout" name="checkout" required><br><br>
+      
+          <label for="requests">Special Requests:</label><br>
+          <textarea id="requests" name="requests" rows="4"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+      </main>
+      <footer>
+        <p>
+            <hr>
+            <em>
+                &copy;2024 Sunset Haven Beach Resort. All Rights Reserved.
+                <strong><a href="#">sunsethaven@outlook.com</a></strong>
+            </em>
+        </p>
+    </footer>
+      </div>
+</body>
+</html>
